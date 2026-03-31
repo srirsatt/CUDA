@@ -1,0 +1,1 @@
+learning log for machine learning with C++, CUDA, Metal.
