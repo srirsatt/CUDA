@@ -12,6 +12,12 @@ struct Car {
 
 // unions work the same as in C
 
+union CarTwo {
+  // string is a char array by memory aspects
+  int year;
+  std::string brand;
+}; // mem is max(year, brand.length + 1)
+
 int main() {
   std::cout << "Hello World" << std::endl; // print hello world with newline
 
